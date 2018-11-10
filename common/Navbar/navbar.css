@@ -1,8 +1,31 @@
 .navbar {
     width: 100%;
     heigth: 10em;
-    background-color: darkgrey;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
 }
 .navbar-registerBlock {
-
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.navbar-registerBlock-user {
+    color: white;
+}
+.navbar-icon {
+    width: 250px;
+    height: 85px;
+}
+.navbar-sections {
+    display: flex;
+    color: white;
+}
+.navbar-sections-button {
+    margin-left: 10px;
+    border: none;
+    background: transparent;
+    color: white;
 }
