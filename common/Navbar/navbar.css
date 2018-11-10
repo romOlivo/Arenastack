@@ -10,22 +10,38 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .navbar-registerBlock-user {
     color: white;
 }
-.navbar-icon {
+.navbar-registerBlock-login {
+    display: flex;
+    color: white;
+    width: 250px;
+    justify-content: space-between;
+}
+.navbar-logo {
     width: 250px;
     height: 85px;
+}
+.navbar-icon {
+    width: 30px;
+    height: 30px;
 }
 .navbar-sections {
     display: flex;
     color: white;
+    width: 60%;
+    justify-content: space-around;
 }
 .navbar-sections-button {
     margin-left: 10px;
     border: none;
     background: transparent;
     color: white;
+    font-weight: bold;
+}
+.navbar-sections-button:hover {
+    color: #f2772c
 }
